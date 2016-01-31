@@ -1,0 +1,18 @@
+{
+    "name": "webberzone/better-search",
+    "description": "Better Search replaces the default WordPress search engine with a more powerful search engine that gives search results relevant to the title and content of the post. This means that visitors to your blog will find will find what they are looking for quicker than if you didn't have Better Search installed.",
+    "type": "plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Ajay D'Souza",
+            "email": "me@ajaydsouza.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WebberZone\\BetterSearch\\": "src"
+        }
+    }
+}
